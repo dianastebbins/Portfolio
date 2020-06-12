@@ -1,0 +1,29 @@
+.AboutPage {
+    background: rgb(240, 220, 240);
+}
+
+h1 {
+    color: purple;
+}
+
+hr.purple {
+    border-top: 3px solid purple;
+}
+
+.contentSection {
+    background: white;
+    margin-bottom: 65px;
+    margin-top: 5px;
+    padding: 20px;
+    width: 100%;
+}
+
+.wrapTextUnder {
+    float: right;
+    margin-left: 10px;
+}
+
+#profilePic {
+    max-height: 200px;
+    max-width: 200px;
+}
