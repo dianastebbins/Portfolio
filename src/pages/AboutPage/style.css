@@ -20,6 +20,7 @@ hr.purple {
 /* combine with overlay to make the background image opaque, without affecting child elements */
 .pageContent {
     display: block;
+    padding-left: 12em;
     position: relative;
     padding-bottom: 10%;
 }

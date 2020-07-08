@@ -9,13 +9,13 @@ export default function PortfolioPage() {
         {
             id: 0,
             header: "Project (Group)",
-            title: "Frustration.",
-            text: "We need more Frustration. in our lives",
-            imageName: "assets/frustration.PNG",
-            imageAlt: "Frustration. app screenshot",
-            appGithub: "https://github.com/dianastebbins/projectOne-Frustration",
-            appUrl: "https://dianastebbins.github.io/projectOne-Frustration/",
-            footer: "Play here!"
+            title: "Mark-it",
+            text: "From farm to app to table!",
+            imageName: "assets/markit.PNG",
+            imageAlt: "Mark-It app screenshot",
+            appGithub: "https://github.com/dianastebbins/mark-it-react",
+            appUrl: "https://awesome-mark-it.herokuapp.com/",
+            footer: "Shop here!"
         }, {
             id: 1,
             header: "Project (Group)",
@@ -29,13 +29,13 @@ export default function PortfolioPage() {
         }, {
             id: 2,
             header: "Project (Group)",
-            title: "Mark-it",
-            text: "Under Construction!",
-            imageName: "assets/ComingSoon.PNG",
-            imageAlt: "Coming soon!",
-            appGithub: "",
-            appUrl: "",
-            footer: "Soon!"
+            title: "Frustration.",
+            text: "We need more Frustration. in our lives",
+            imageName: "assets/frustration.PNG",
+            imageAlt: "Frustration. app screenshot",
+            appGithub: "https://github.com/dianastebbins/projectOne-Frustration",
+            appUrl: "https://dianastebbins.github.io/projectOne-Frustration/",
+            footer: "Play here!"
         }, {
             id: 3,
             header: "Widget",

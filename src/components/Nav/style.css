@@ -1,5 +1,6 @@
 .Nav {
     background: white;
+    border-bottom: rgb(240, 220, 240) solid 5px;
     border-top: rgb(240, 220, 240) solid 5px;
     padding-bottom: 0;
     padding-top: 0;
