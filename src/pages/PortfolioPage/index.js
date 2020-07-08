@@ -95,7 +95,7 @@ export default function PortfolioPage() {
     // just indexing the array to make the ProjectCard Component calls
     return (
         <div className="PortfolioPage">
-            <div className="row">
+            <div className="row pageContent">
                 <div className="col-sm-1"></div>
                 <div className="col-sm-10">
                     <section className="contentSection">

@@ -11,7 +11,7 @@ export default function ContactPage() {
 
     return (
         <div className="ContactPage">
-            <div className="row" id="contactPageContent">
+            <div className="row pageContent">
                 <div className="col-sm-1" id="column-one"></div>
                 <div className="col-sm-10" id="column-two">
                     <section className="contentSection">

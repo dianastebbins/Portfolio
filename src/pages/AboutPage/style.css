@@ -1,6 +1,5 @@
-.AboutPage {
-    background: rgb(240, 220, 240);
-}
+/* .AboutPage {
+} */
 
 h1 {
     color: purple;
@@ -16,6 +15,35 @@ hr.purple {
     margin-top: 5px;
     padding: 20px;
     width: 100%;
+}
+
+/* combine with overlay to make the background image opaque, without affecting child elements */
+.pageContent {
+    display: block;
+    position: relative;
+    padding-bottom: 10%;
+}
+
+/* overlay to make the background image opaque, without affecting child elements */
+.pageContent::after {
+    /* set a color in case something happens to the image */
+    background-color: rgb(240, 220, 240);
+    
+    /* center and scale the image nicely */
+    background-image: url("/assets/amethyst.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    
+    content: "";
+    position: absolute;
+    z-index: -1;
 }
 
 .wrapTextUnder {

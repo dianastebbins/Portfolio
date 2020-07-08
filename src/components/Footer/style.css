@@ -26,6 +26,15 @@
     margin-right: 10px;
 }
 
+.ftr-info {
+    background-color: white;
+    border: none;
+}
+
+.ftr-info:focus {
+    outline: none;
+}
+
 .ftr-link, .nav-link {
     color: black;
 }

@@ -99,7 +99,7 @@ export default function AboutPage() {
 
     return (
         <div className="AboutPage">
-            <div className="row">
+            <div className="row pageContent">
                 <div className="col-sm-1" id="column-one"></div>
                 <div className="col-sm-10" id="column-two">
                     <section className="contentSection">
