@@ -10,7 +10,9 @@ export default function ProjectCard(props) {
                 <h5 className="card-title"> {props.data.title} </h5>
                 <p className="card-text"> {props.data.text} </p>
             </div>
-            <img className="card-img-top" src={props.data.imageName} alt={props.data.imageAlt} />
+            <a className="card-img-top" target="_blank" rel="noopener noreferrer" href={props.data.appUrl}>
+                <img className="card-img-top" src={props.data.imageName} alt={props.data.imageAlt} />
+            </a>
             <p className="card-repo">
                 <a className="card-repo-link" target="_blank" rel="noopener noreferrer" 
                     href={props.data.appGithub}>GitHub repo link</a>

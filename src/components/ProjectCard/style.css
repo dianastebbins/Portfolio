@@ -16,8 +16,12 @@
     color: white;
 }
 
+.card-img-link,
 .card-img-top {
     align-self: center;
+}
+
+.card-img-top {
     height: 200px; 
     width: 150px;
 }
